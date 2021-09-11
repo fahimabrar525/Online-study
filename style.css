@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:100%;
+    height:100vh;
+}
+header{
+    background: url('images/pexels-polina-zimmerman-3747505.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-style{
+    background:rgba(0,0,0,0.5);
+  
+}
+.nav-img{
+    color:white;
+}
+.nav-link{
+    color:white;
+    text-align: center;
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color:burlywood;
+    transform: scale(1.1);
+}
+.nav-icon{
+    color:white;
+}
+.dropdown-item{
+    transition: 0.3s;
+}
+.dropdown-item:hover{
+    color:white;
+    background: rgba(165, 42, 42,0.8);
+    font-weight: bolder;
+}
+
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content h1{
+    font-family: 'Handlee', cursive;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.btn-style{
+    transition: 0.3s;
+}
+.btn-style:hover{
+    transform: scale(1.1);
+}
+
+#features-section{
+    background-color: #F0CAC6;
+    padding:5% 7%;
+}
+.feature-body{
+    border: 2px solid #3F70F7 ;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 2px 6px 4px black;
+    padding:15px;
+}
+.feature-icon{
+    border:1px solid;
+    border-radius: 50%;
+    padding:15px;
+    color:white;
+    background: #131B33 ;
+}
+.feature-body:hover{
+    transform:scale(1.1);
+}
+
+/* about-me section starts */
+
+.aboutme-container{
+    padding: 4% 7%;
+    background-color: #DBEAD3;
+}
+.hr-style{
+    border:5px solid;
+    width:80px;
+    margin:auto;
+}
+.personal-info p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+.personal-info a{
+    color:black;
+    text-decoration: underline;
+}
+
+.achievement p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.achievement span{
+    font-weight: 700 !important;
+}
+.table th{
+    padding-left:0;
+}
+
+
+/* about-me section end */
+
+/* tutorial-section starts here */
+
+ #tutorials{
+     background-color: #DFFBCF;     ;
+     padding: 5% 7%;
+ }
+ .card{
+     border:1px solid brown;
+     transition: 0.4s;
+     box-shadow: 2px 4px 4px black;
+ }
+ .card:hover{
+     transform: scale(1.1);
+ }
+
+
+/*tutorial-section ends here */
+
+
+/* feedback section starts here */
+
+#feedback{
+    background-color: #242727 ;
+    padding:5% 7%;
+}
+.carousel-item{
+    text-align: center;
+    padding:9%;
+    color:white;
+}
+.img-style{
+    width:100px;
+    height: 80px;
+}
+
+/* feedback section ends here */
+
+
+/* contact section starts here */
+
+#contact-me{
+    background-color: #2D2E2E;
+    padding: 5% 7%;
+}
+
+
+
+/* contact section ends here */
+
+#copy-icon{
+    background:#4B9183;
+    margin-bottom: 0;
+    padding:1% 10%;
+    color:white;
+    text-align: center;
+}
+#copy-icon a{
+    color:white;
+    padding:10px;
+}
+#copy-icon a:hover{
+    color:greenyellow;
+}
